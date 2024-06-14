@@ -1,3 +1,6 @@
 ^nhp\.results\.Rproj$
 ^\.Rproj\.user$
 ^\.github$
+^\.lintr$
+^CODEOWNERS$
+^codecov\.yml$
