@@ -1,14 +1,13 @@
 Package: nhp.results
-Title: What the Package Does (One Line, Title Case)
+Title: Parsing and plotting the results of the New Hospitals Programme model 
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Authors@R: c(
+    person("Rhian", "Davies", email = "rhian.davies25@nhs.net", role = "cre"),
+    person("The Strategy Unit", role = c("cph", "fnd")))
+Description: Functions to parse, wrangle and plot the outputs of the NHP model.
+License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
-URL: https://github.com/StatsRhian/nhp.results
-BugReports: https://github.com/StatsRhian/nhp.results/issues
+URL: https://github.com/The-Strategy-Unit/nhp_results
+BugReports: https://github.com/The-Strategy-Unit/nhp_results
