@@ -79,7 +79,7 @@ get_trust_sites <- function(r) {
 #' @examples
 #' filename <- system.file("sample_results.json", package = "nhp.results")
 #' results <- get_results_from_local(filename)
-#' get_trust_sites(results)
+#' get_available_aggregations(results)
 get_available_aggregations <- function(r) {
   r$results |>
     purrr::keep(\(.x) "pod" %in% colnames(.x)) |>
